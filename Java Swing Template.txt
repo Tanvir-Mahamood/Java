@@ -1,0 +1,22 @@
+
+import java.awt.Color;
+import java.awt.Container;
+import javax.swing.JFrame;
+
+public class Topic4 extends JFrame {
+    private Container c;
+    
+    Topic4()
+    {
+        c=this.getContentPane();
+        c.setLayout(null);
+        c.setBackground(Color.LIGHT_GRAY);
+    }
+    public static void main(String[] args) {
+        Topic4 fr=new Topic4();
+        fr.setVisible(true);  
+        fr.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+        fr.setBounds(200,200,400,400);
+        fr.setTitle(" ");
+    }
+}
